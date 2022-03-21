@@ -57,7 +57,9 @@ a {
     font-size: 1.0rem;
 }
 
-.sidebar a:hover {
+.sidebar a:hover,
+.nav-pills .nav-link.active,
+.dropdown-item.active {
     background: #b913fb;
     font-size: 1.4rem;
     transition: 0.7s;
