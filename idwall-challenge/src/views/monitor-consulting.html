@@ -1,0 +1,194 @@
+<<<<<<< HEAD:src/views/monitor-consulting.html
+<<<<<<< HEAD:src/views/monitor-consulting.html
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../public/css/style.css">
+
+    <title>Idwall - Monitor</title>
+    <script src="/public/js/scripts.js"></script>
+
+<body class="row" onload="start()">
+    <aside class="sidebar col-md-3">
+        <div class="sidebar-header">
+            <img src="../../public/assets/images/logo.svg" alt="">
+        </div>
+        <div class="sidebar-body">
+
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white" aria-current="page">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> protocolos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> documentos
+                    </a>
+                </li>
+                <li>
+                    <a href="./usuarios.html" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> usuarios
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> fontes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> matrizes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> regras
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> atributos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> monitor
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="./monitor-status.html" style="color: white;">Status</a></li>
+                        <li><a href="#" style="color: white;">Protocolos</a></li>
+                        <li><a href="./monitor-consulting.html" style="color: white;">Consultas em Análise</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> organizacoes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#"></use>
+                        </svg> sair
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+    </aside>
+
+    <section class="main col-md-9">
+
+        <header class="header-top">
+            <h1>Monitor</h1>
+            <h2>Consultas em Análise</h2>
+        </header>
+        <div class="searchs">
+            <label for="">Orgão: </label>
+            <input type="searchbar" name="" id="" placeholder="Processos, Antecedentes...">
+
+            <button id="btn-search" type="button" class="btn btn">Search</button>
+
+        </div>
+        <div class="table-container">
+            <table class="card-table">
+              <thead>
+                <tr class="card-table-title">
+                  <th class="my-card-table-heading left-table-data">Orgão</th>
+                  <th class="my-card-table-heading special-table-heading-last">Número de Consultas</th>
+                </tr>
+              </thead>
+              <tr data-submenu="1" class="close-submenu">
+                <td class="left-table-data">Processos TJ</td>
+                <td id="total-value-1">1740</td>
+              </tr>
+              <tr data-submenu-element="1" class="submenu-list-container submenu-item">
+                <td class="left-table-data">ProcessosTJSE</td>
+                <td submenu-value="1">1137</td>
+              </tr>
+              <tr data-submenu-element="1" class="submenu-list-container submenu-item ">
+                <td class="left-table-data">ProcessosTJSP</td>
+                <td submenu-value="1">418</td>
+              </tr>
+              <tr data-submenu-element="1" class="submenu-list-container submenu-item">
+                <td class="left-table-data">ProcessosTJRO</td>
+                <td submenu-value="1">97</td>
+              </tr>
+              <tr data-submenu-element="1" class="submenu-list-container submenu-item">
+                <td class="left-table-data">ProcessosTJRJ</td>
+                <td submenu-value="1">88</td>
+              </tr>
+              <tr data-submenu="2" class="close-submenu">
+                <td class="left-table-data">Antecedentes</td>
+                <td submenu-value="2">141</td>
+              </tr>
+              <tr data-submenu-element="2" class="submenu-list-container submenu-item">
+                <td class="left-table-data">AntecedentesTO</td>
+                <td submenu-value="2">32</td>
+              </tr>
+              <tr data-submenu-element="2" class="submenu-list-container submenu-item">
+                <td class="left-table-data">AntecedentesDF</td>
+                <td submenu-value="2">30</td>
+              </tr>
+              <tr data-submenu-element="2" class="submenu-list-container submenu-item">
+                <td class="left-table-data">AntecedentesMT</td>
+                <td submenu-value="2">30</td>
+              </tr>
+              <tr data-submenu-element="2" class="submenu-list-container submenu-item">
+                <td class="left-table-data">AntecedentesRO</td>
+                <td submenu-value="2">29</td>
+              </tr>
+              <tr data-submenu-element="2" class="submenu-list-container submenu-item">
+                <td class="left-table-data">AntecedentesCE</td>
+                <td submenu-value="2">20</td>
+              </tr>
+            </table>
+          </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+</html>
