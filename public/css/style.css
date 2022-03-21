@@ -101,6 +101,7 @@ body a {
 
 table {
     width: 100%;
+    max-width: 150%;
     margin-bottom: 0.5rem;
     table-layout: fixed;
     text-align: center;
@@ -140,4 +141,53 @@ table tbody td {
 .searchs {
     left: 35.2rem;
     margin: 2%;
+}
+
+.sub-menu{
+    margin-left: 50px;
+    color: white;
+}
+
+.table-container {
+    padding: 20px;
+}
+  
+.card-table {
+    width: 100%;
+    border: 1px solid #D9D7D6;
+    table-layout: fixed !important;
+}
+  
+.left-table-data {
+    padding-left: 50px;
+}
+
+.my-card-table-heading {
+    background-color: #E9E9E9;
+    font-family: "Proxima Nova Regular";
+    color: #000000;
+    font-size: 1rem;
+    padding: 10px 5px 10px 25px;
+}
+  
+.special-table-heading-last {
+    padding-left: 25px ;
+}
+  
+.my-card-link-2 {
+    color: #0e5b8b;
+}
+  
+.submenu-list-container {
+    display: none;
+}
+
+.submenu-list-container.active {
+    justify-content: center;
+    padding-left: 80%;
+    display: block;
+}
+  
+.close-submenu {
+    cursor: pointer;
 }
