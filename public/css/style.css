@@ -1,4 +1,4 @@
-:root{    
+:root {
     --primary-color: #50f;
     --secondary-color: #fff;
     --success-color: #52c41a;
@@ -18,26 +18,25 @@
     --blue-600: #1d39c4;
     --blue-700: #10239e;
     --blue-800: #061178;
-
 }
 
-body{
+body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.sidebar{
+.sidebar {
     width: 15%;
     min-width: 200px;
     height: 100vmin;
     padding-top: 0.3rem;
 }
 
-.sidebar-header{
+.sidebar-header {
     width: 100%;
     height: 10%;
     min-height: 60px;
@@ -47,8 +46,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-}.sidebar-body{
+.sidebar-body {
     padding-top: 0.3rem;
     width: 100%;
     height: 90%;
@@ -56,7 +56,10 @@ a{
     font-weight: 600;
     font-size: 1.0rem;
 }
-.sidebar a:hover{
+
+.sidebar a:hover,
+.nav-pills .nav-link.active,
+.dropdown-item.active {
     background: #b913fb;
     font-size: 1.4rem;
     transition: 0.7s;
@@ -67,23 +70,22 @@ a{
     background-color: var(--secondary-color);
 }
 
-.header-top{
+.header-top {
     width: 100%;
     height: 20%;
     min-height: 80px;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
-
     padding: 3rem;
     background-color: var(--secondary-color);
 }
 
-body a{
+body a {
     margin-bottom: 16px;
 }
 
-.btn-adc{
+.btn-adc {
     background-color: var(--blue-500);
     padding: 0.7rem;
     font-size: 1.0rem;
@@ -92,7 +94,7 @@ body a{
     color: var(--secondary-color);
 }
 
-.btn-adc:hover{
+.btn-adc:hover {
     background-color: var(--gray-400);
     font-weight: 700;
 }
@@ -104,12 +106,12 @@ table {
     text-align: center;
 }
 
-table thead tr th:first-child, 
+table thead tr th:first-child,
 table tbody tr td:first-child {
     border-radius: 0.25rem 0 0 0.25rem;
 }
 
-table thead tr th:last-child, 
+table thead tr th:last-child,
 table tbody tr td:last-child {
     border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -133,10 +135,9 @@ table tbody tr:hover {
 table tbody td {
     background: white;
     padding: 1rem 2rem;
-    
 }
 
 .searchs {
     left: 35.2rem;
-    margin: 2%; 
+    margin: 2%;
 }
