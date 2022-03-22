@@ -17,3 +17,4 @@ Para a funcionalidade 2, referente à tela de Monitor, foram feitas as inclusõe
 
 - Consultas em análise: aplicação de opção de busca pelo órgão como na funcionalidade 1, criação de uma tabela onde as entidades estão separadas por órgãos e estados.
 - Protocolos: aplicação de opção de busca pelo id e nome do cliente como na funcionalidade 1, criação de uma tabela onde há a separação por status e um sub-menu contendo o usuário e quantidade de protocolos.
+- Status: inclusão de gráfico para visualização de status em tempo real.
