@@ -143,7 +143,7 @@ table tbody td {
     margin: 2%;
 }
 
-.sub-menu{
+.sub-menu {
     margin-left: 50px;
     color: white;
 }
@@ -151,13 +151,13 @@ table tbody td {
 .table-container {
     padding: 20px;
 }
-  
+
 .card-table {
     width: 100%;
     border: 1px solid #D9D7D6;
     table-layout: fixed !important;
 }
-  
+
 .left-table-data {
     padding-left: 50px;
 }
@@ -169,15 +169,15 @@ table tbody td {
     font-size: 1rem;
     padding: 10px 5px 10px 25px;
 }
-  
+
 .special-table-heading-last {
-    padding-left: 25px ;
+    padding-left: 25px;
 }
-  
+
 .my-card-link-2 {
     color: #0e5b8b;
 }
-  
+
 .submenu-list-container {
     display: none;
 }
@@ -187,7 +187,12 @@ table tbody td {
     padding-left: 80%;
     display: block;
 }
-  
+
 .close-submenu {
     cursor: pointer;
+}
+
+.img {
+    margin-top: 56px;
+    padding-left: 7%;
 }
